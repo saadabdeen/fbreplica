@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+body{
+    background-color: rgba(64, 93, 155);
+    height: 85px;
+    border-bottom: 0.5px solid #000;
+}
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    width: auto;
+}
+.fblogo{
+    width: 16%;
+    margin-top: 25px;
+    
+}
+.logbtn{
+    background-color: #365899;
+    color: #fff;
+    width: 50px;
+    height: 23px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-weight: 700;
+}
+/* .totop{
+    margin-top: -35px;
+}
+.labels{
+    color: #fff;
+    margin: 25px;
+}
+.loginitems{
+    float: right;
+    
+}
+.logbtn{
+    background-color: rgb(21%, 35%, 60%);
+    font-weight: 300;
+    color: #fff;
+    border: 1px solid #000;
+} */
+
+table{
+    float: right;
+    border-spacing: 6px;
+    color: #fff;
+    margin-top: 10px;
+}
+tr{
+    display: table-row;
+}
+a{
+    color: #babcc0;
+}
+a:hover{
+    text-decoration: underline;
+}
+.middle{
+background-image: linear-gradient(#FFF, #D7DBEA);
+margin-top: 25px;
+height: 800%;
+}
+.slogan {
+margin-top: 55px;
+}
+h6{
+    color: #0E385F;
+    font-size: large;
+}
+.connetedimg{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+.myinfo{
+    float: left;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signup_form{
+    margin-top:  -235px;
+    margin-left: 610px;
+
+}
+.main_heading {
+    /* font-weight: 700; */
+    font-size: xx-large;
+}
+.sub_heading {
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+.inputs{
+    border: 0.5px solid	#D3D3D3;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: large;
+    font-weight: 300;
+    
+}
+.inputs::placeholder {
+    color: 	#999999;
+  }
+
+.inputs2{
+    border: 0.5px solid	#D3D3D3;
+    width: 368px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: large;
+}
+.inputs2::placeholder {
+    color: 	#999999;
+  }
+.s_up{
+ margin-top: 8px;   
+}
+.D_of_b {
+    font-size: 18px;
+    font-weight: 600;
+    display:inline-block; 
+    margin-top:15px;
+    color: #90949c;
+}
+.genders {
+    font-size: 18px;
+    font-weight: 600;
+    display:inline-block; 
+    margin-top:15px;
+    color: #90949c;
+}
+
+.select_box{
+    width: 55px;
+    height: 25px;
+    display: inline-block;
+    margin-right: -4.5px;
+    margin-top: 8px;
+}
+.radios{
+    margin-top: 12px;
+    margin-right: 1px;
+    border: 5px solid red;
+  
+}
+.opt_gender{
+    font-size: 1.5em;
+    margin-top: -25px;
+}
+.tos_agr{
+    font-size: 0.9em;
+    font-weight: 100;
+    color: slategrey;
+}
+.tos {
+    margin-top: 25px;
+}
+.signup_btn{
+width: 170px;
+height: 40px;
+background-image: linear-gradient(#6da958, #5b8e47);
+border: 1px solid #000;
+border-radius: 5px;
+color: #fff;
+font-weight: 700;
+font-size: 1.3em;
+margin-top: 25px;
+text-shadow: 1px 1px #000;
+}
+.create_page{
+    font-size: 1em;
+    font-weight: 700;
+    color: #808080;
+    margin-top: 25px;
+}
+.a_blue{
+color: #365899;
+}
+.question{
+    margin-left:15px ;
+    width: 14px;
+    height: 14px;
+}
