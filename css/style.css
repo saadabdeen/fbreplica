@@ -64,6 +64,7 @@ tr{
 }
 a{
     color: #babcc0;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
@@ -71,7 +72,7 @@ a:hover{
 .middle{
 background-image: linear-gradient(#FFF, #D7DBEA);
 margin-top: 25px;
-height: 800%;
+height: 600%;
 }
 .slogan {
 margin-top: 55px;
@@ -202,4 +203,41 @@ color: #365899;
     margin-left:15px ;
     width: 14px;
     height: 14px;
+}
+/* .bottom {
+    border: 1px solid red;
+} */
+.lang{
+
+    padding: 5px;
+    /* position: absolute; */
+    margin: 0px 0px 0px -5px;    
+}
+.lang>li {
+    display: inline;
+    margin: 10px 8px 0px 0px;
+    box-sizing: border-box;
+    padding: 5px;
+
+    color: #babcc0;
+    font-size: .9em;
+}
+.lang>li>a{
+    color: #385898;
+}
+.addbtn{
+    padding-bottom: 20px;   
+    width: 35px;
+    height: 18px;
+    font-size: large;
+    font-weight: 550;
+    color: #57595c;
+    
+}
+hr{
+    border: none;
+    height: 0.01em;
+    background-color:#babcc0;
+    margin: 20px 8px 5px 0px;
+    width: 94%;
 }
